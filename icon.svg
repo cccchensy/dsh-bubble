@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="气泡提示音">
+  <title>气泡提示音 · Bubble Chime</title>
+  <defs>
+    <linearGradient id="bbBig" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#a9d1ff"/>
+      <stop offset="0.55" stop-color="#5b93f0"/>
+      <stop offset="1" stop-color="#2a5fd0"/>
+    </linearGradient>
+    <linearGradient id="bbMid" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c9e2ff"/>
+      <stop offset="1" stop-color="#4a86ee"/>
+    </linearGradient>
+    <linearGradient id="bbSmall" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e3f0ff"/>
+      <stop offset="1" stop-color="#6aa2f7"/>
+    </linearGradient>
+  </defs>
+  <!-- big bubble -->
+  <circle cx="22" cy="40" r="16" fill="url(#bbBig)"/>
+  <circle cx="16.5" cy="34.5" r="4.4" fill="#ffffff" opacity="0.72"/>
+  <circle cx="27" cy="47" r="1.6" fill="#ffffff" opacity="0.35"/>
+  <!-- medium bubble -->
+  <circle cx="44" cy="25" r="9.5" fill="url(#bbMid)"/>
+  <circle cx="40.6" cy="21.6" r="2.7" fill="#ffffff" opacity="0.8"/>
+  <!-- small bubble -->
+  <circle cx="55" cy="9.5" r="4.6" fill="url(#bbSmall)"/>
+  <circle cx="53.3" cy="8" r="1.35" fill="#ffffff" opacity="0.85"/>
+  <!-- drifting speck -->
+  <circle cx="11" cy="14" r="2.4" fill="#9cc4ff" opacity="0.65"/>
+</svg>

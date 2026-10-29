@@ -1,0 +1,10 @@
+{
+  "meta": {
+    "title": "Bubble Chime",
+    "description": "Plays an original bubbly \u201cglub\u201d chime whenever a whole task finishes and the output stops. The bubble button under the composer mutes it."
+  },
+  "bubbleChime": {
+    "mute": "Mute the Bubble Chime",
+    "unmute": "Unmute the Bubble Chime"
+  }
+}

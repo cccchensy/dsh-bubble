@@ -1,0 +1,9 @@
+# dsh-bubble bundle patch.
+#
+# One Host row with no model-visible behaviour: it only registers the bundle in
+# the profile so the `dsh.client` browser half is served and booted into the Web
+# page. The chime itself is browser code (`lib/client.js`); the Host apply is
+# intentionally empty.
+- insert:
+    - id: bubble
+      name: 'dsh-bubble'

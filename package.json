@@ -1,0 +1,58 @@
+{
+  "name": "dsh-bubble",
+  "version": "1.0.0",
+  "description": "Plays an original bubbly \"glub\" chime whenever a whole task finishes and the output stops.",
+  "license": "MIT",
+  "author": "cccchensy",
+  "type": "module",
+  "icon": "./icon.svg",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "deepseek",
+    "plugin",
+    "notification",
+    "chime",
+    "sound",
+    "bubbles",
+    "web-audio",
+    "task-completion"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cccchensy/dsh-bubble.git"
+  },
+  "homepage": "https://github.com/cccchensy/dsh-bubble",
+  "bugs": {
+    "url": "https://github.com/cccchensy/dsh-bubble/issues"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./lib/client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./assets/*": "./assets/*",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "lib/client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "assets/bubble-chime.wav",
+    "assets/DESIGN.md",
+    "README.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": ["@deepseek-ai/dsh-client-ui-conversation"]
+    }
+  }
+}

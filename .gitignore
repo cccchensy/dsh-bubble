@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# editors
+.vscode/
+.idea/
+*.swp
+
+# node / pnpm
+node_modules/
+pnpm-lock.yaml
+npm-debug.log*
+pnpm-debug.log*
+
+# local scratch from the dev scripts
+docs/_*.png
